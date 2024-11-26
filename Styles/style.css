@@ -1,4 +1,7 @@
 /* common shared code  */
+*,::after,::before{
+    border: 1px solid red;
+}  
 * {
     margin: 0;
     border: 0;
@@ -32,7 +35,18 @@ img {
 .font-satisfy {
     font-family: "Satisfy", cursive;
 }
-
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
 /* header css here */
 .header-wrapper {
     background-color: rgb(253, 251, 247);
@@ -40,29 +54,19 @@ img {
 
 .navigation {
     padding: 1rem 0 1rem 0;
-    display: flex;
     gap: 13.13rem;
-    align-items: center;
 }
 
 .left-side {
-    display: flex;
-    justify-content: space-between;
     gap: 14.94rem;
     width: 65%;
 }
-
 .list-item {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 2.5rem;
 }
-
 .last-item {
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
     gap: 1.5rem;
     flex-grow: 1;
 }
@@ -84,29 +88,20 @@ img {
     width: 2.75rem;
     height: 2.75rem;
     background-color: rgb(0, 0, 0);
-    display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 100%;
 }
 
 .reverse-btn {
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     column-rule: rgb(0, 0, 0);
     border-radius: 2rem;
     background: rgb(251, 192, 78);
 }
 
 .paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(251, 192, 78);
     padding: 0.57rem 0.5rem 0.57rem 0.5rem;
-
 }
 
 /* healthy section css here */
@@ -132,16 +127,11 @@ img {
 }
 
 .food-span {
-    display: flex;
-    align-items: center;
     gap: 1.88rem;
 }
 
 /* img section wrapper */
 .img-section-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 3.5rem;
     margin-top: 4rem;
     padding-bottom: 5rem;
@@ -157,7 +147,6 @@ img {
 }
 
 .right-side-content-wrapper {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -196,7 +185,6 @@ img {
 }
 
 .button-div {
-    display: flex;
     justify-content: flex-start;
     align-items: start;
     gap: 1.6rem;
@@ -222,16 +210,11 @@ img {
 
 /* review section */
 .review-container-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 5rem;
 
 }
 
 .review-wrapper {
-    display: flex;
-    justify-content: space-between;
     gap: 1.25rem;
     border-right: 1px solid rgb(150, 150, 150);
 }
@@ -266,17 +249,12 @@ img {
 }
 
 .elipsis-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 0.75rem;
 }
 
 /* best food section */
 .best-food-section {
     padding: 7.75rem 0px 5rem 0px;
-    display: flex;
-    justify-content: space-between;
     gap: 4.32rem;
 }
 
@@ -317,28 +295,12 @@ img {
     color: rgb(108, 108, 108);
 }
 
-.about-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* slider section */
 .slider-section {
     padding: 80px 0;
 
 }
-
-.offer-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .svg-diva {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 1.74rem;
 }
 .svg-dib{
@@ -363,9 +325,6 @@ padding: 0.5rem;
     width: 43.17px;
     height: 43.17px;
     border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .left {
@@ -374,15 +333,10 @@ padding: 0.5rem;
     width: 43.17px;
     height: 43.17px;
     border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .lower-img-section {
     margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -427,15 +381,11 @@ padding: 0.5rem;
 /* right side img slider div */
 .right-side-img {
     width: 60%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 2rem;
 }
 
 .first-div {
-    display: flex;
-    justify-content: space-between;
     gap: 1rem;
 
 
@@ -447,8 +397,7 @@ padding: 0.5rem;
 }
 
 .dollar {
-    display: flex;
-    justify-content: space-between;
+ 
     gap: 0.5rem;
     font-family: cabin;
     font-weight: 700;
@@ -562,11 +511,6 @@ input::placeholder {
 }
 
 /* service reservation parent */
-.submit-reservation-parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .submit-reservation {
     border-radius: 3rem;
@@ -584,15 +528,11 @@ input::placeholder {
 }
 
 .location-upper {
-    /* margin: 0 8.25rem; */
-    display: flex;
-    justify-content: space-between;
     padding: 0 132px;
 
 }
 
 .location-inner-parent {
-    display: flex;
     gap: 1.5rem;
     width: 32%;
 }
@@ -602,9 +542,6 @@ input::placeholder {
     width: 64px;
     border-radius: 12px;
     background: rgb(252, 241, 231);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .innerText {
@@ -617,14 +554,11 @@ input::placeholder {
 }
 
 .time {
-    display: flex;
     gap: 16px;
-    align-items: center;
     margin-bottom: 14px;
 }
 
 .time-2 {
-    display: flex;
     width: 100%;
 }
 
@@ -669,9 +603,6 @@ input::placeholder {
 }
 
 .newsletter-parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 3.56rem;
 }
 
@@ -717,7 +648,6 @@ input::placeholder {
 }
 
 .subscribe-parent {
-    display: flex;
     margin-top: 2.5rem;
     gap: 12px;
 }
@@ -756,8 +686,6 @@ input::placeholder {
 .main-footer-content {
     padding: 4rem 6.25rem 3rem 6.25rem;
     color: #fff;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 4rem;
 
 }
@@ -791,7 +719,6 @@ input::placeholder {
 }
 
 .footer-ul-parent {
-    display: flex;
     align-items: start;
     gap: 2rem;
     font-family: cabin;
@@ -812,9 +739,7 @@ input::placeholder {
 
     border: 1px solid rgb(166, 1666, 1666);
     padding: 10px;
-    display: flex;
     gap: 7px;
-    align-items: center;
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
@@ -822,7 +747,6 @@ input::placeholder {
 .apple {
     width: 25px;
     height: 30px;
-    display: flex;
     gap: 7px;
 
 }
@@ -867,7 +791,10 @@ input::placeholder {
 
 
 /* for mobile responsive device */
-@media (max-width:425px) {
+@media only screen and (max-width:600px) {
+    *,::after,::before{
+        border: 1px solid red;
+    }  
     .container {
         max-width: 90%;
         margin: 0 auto;
@@ -1287,7 +1214,6 @@ line-height: 43px;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    height: 101px;
 
 
 }
@@ -1310,7 +1236,7 @@ line-height: 43px;
     font-weight: 700;
     font-size: 0.5rem;
 }
-rupe-svg{
+.rupe-svg{
     width: 26px;
     height: 24px;
 }
@@ -1628,8 +1554,11 @@ margin-bottom: 19px;
 }
 
 .footer-right {
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 2rem;
 }
 
@@ -1716,6 +1645,7 @@ margin-bottom: 19px;
 
 .last {
     padding-bottom: 48px;
+    text-align: center;
 }
 
 
@@ -1724,7 +1654,7 @@ margin-bottom: 19px;
 }
 
 
-@media (min-width:426px) and (max-width:768px){
+@media only screen and (min-width:601px) and (max-width:768px){
     .container{
         max-width: 95%;
         margin: 0 auto;
@@ -1847,9 +1777,13 @@ margin-bottom: 19px;
 }
 
 .footer-right {
-    width: 50%;
+  
     margin: 0 auto;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logoa {
@@ -1873,7 +1807,7 @@ margin-bottom: 19px;
 .footer-ul-parent {
     gap: 1rem;
     font-family: cabin;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -2058,7 +1992,10 @@ margin-bottom: 19px;
 }
 
 .footer-right {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -2084,7 +2021,6 @@ margin-bottom: 19px;
 .footer-ul-parent {
     gap: 1rem;
     font-family: cabin;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
