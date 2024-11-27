@@ -110,9 +110,8 @@ img {
 }
 /* contact section */
 .contact{
-    margin: 5rem 12rem 0 12rem;
-    border: 1px solid rgb(213, 211, 211);
-    border-radius: 0.5rem;
+    margin: 80px 93px 80px 93px;
+   
 
 }
 .contact-inner{
@@ -121,6 +120,8 @@ img {
  justify-content: space-between;
  align-items: center;
  gap: 2.69rem;
+ border: 1px solid rgb(213, 211, 211);
+ border-radius: 0.5rem;
 
 }
 .contact-inner-left{
@@ -555,3 +556,1252 @@ width: 60%;
     padding-bottom: 48px;
 }
 
+@media only screen and (max-width:600px) {
+    /* *,::after,::before{
+        border: 1px solid red;
+    }   */
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 0.2rem 0 0.2rem;
+    }
+
+    /* header css here */
+    .header-wrapper {
+        background-color: rgb(253, 251, 247);
+    }
+
+    .navigation {
+        padding: 1rem 0 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .left-side {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .list-item {
+        display: none;
+    }
+
+    .last-item {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.5rem;
+        flex-grow: 1;
+    }
+
+    .logo {
+        color: rgb(0, 0, 0);
+        font-family: Jomhuria;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 20.74px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+
+
+    .svg-dib {
+        display: none;
+    }
+
+    .reverse-btn {
+        padding: 6px 12px 6px 12px;  justify-content: center;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12.01px; 
+    }
+
+
+.paragraph {
+    text-align: center;
+    font-size: 8px;
+}
+
+/* contact css start */
+/* contact section */
+.contact{
+    margin: 1rem auto 1rem auto;
+   
+
+}
+.contact-inner{
+    padding: 0.2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 2.69rem;
+ flex-direction: column;
+
+
+}
+.contact-inner-left{
+ background-color:#292929;
+ width: 100%;
+ border-radius: 0.5rem;
+ color: white;
+}
+.contact-h2{
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 45px;
+    font-family: playfair; 
+
+}
+.contact-p{
+    padding: 1rem;
+ font-family: cabin;
+ font-size: 14px;
+ line-height: 27px;
+font-weight: 400;
+line-height: 150%;
+}
+.contact-div{
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.contact-div-inner{
+    padding: 0 0 0 1.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.contact-div-svg{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(251, 191, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+}
+.number{
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+}
+.contact-div-inner{
+    color: white;
+}
+.svg-icon-container{
+    display: flex;
+    justify-content:flex-end;
+}
+.svg-icon{
+    width: 190px;
+    height: 191px;
+  
+}
+
+/* container right section  */
+.contact-inner-right{
+width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; 
+    max-width: 500px; 
+    padding: 2rem; */
+    font-family: cabin;
+    padding: 1.2rem;
+    gap: 1rem;
+
+}
+
+/* Label styling */
+.input-container label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #767373;
+    margin-bottom: 8px;
+}
+
+/* Input field styling */
+.input-container input {
+    font-size: 16px;
+    color: #666;
+    padding: 12px;
+    border: 1px solid #D8C8A2; 
+    border-radius: 8px;
+    background-color: #f7f7f5; 
+    outline: none;
+    width: 100%;
+}
+.input-container textarea {
+    font-size: 16px;
+    color: #666;
+    padding: 12px;
+    border: 1px solid #D8C8A2; 
+    border-radius: 8px;
+    background-color: #f7f7f5; 
+    outline: none;
+    width: 100%;
+    height: 200px;
+    resize: vertical; 
+}
+
+/* Placeholder styling */
+.input-container textarea::placeholder {
+    color: #b3b3b3; 
+    font-family: cabin;
+}
+
+
+/* Placeholder styling */
+.input-container input::placeholder {
+    color: #b3b3b3; 
+}
+.form-btn{
+    background-color: #FBC04E;
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-family: cabin;
+}
+/* contact css end */
+/* location section */
+.location {
+    margin: 40px 0 40px 0;
+}
+
+.location-upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.location-special{
+    width: 80%;
+}
+.location-special-a{
+    width: 0%;
+}
+.location-inner-parent {
+    display: flex;
+    gap:24px;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.clock {
+    height: 64px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(252, 241, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerText {
+    color: rgb(0, 0, 0);
+    font-family: plafair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 1.5rem;
+}
+
+.time {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.time-2 {
+    display: flex;
+    width: 100%;
+}
+
+.time-2-h3 {
+    width: 50%;
+}
+
+.time-2-p {
+    color: rgb(114, 114, 114);
+    font-family: Cabin;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.time-h3 {
+    color: rgb(114, 114, 114);
+    font-family: Cabin;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-location {
+    height: 500px;
+    position: relative;
+overflow: hidden;
+border-radius: 1rem;
+margin:0 auto;
+width: 343px;
+padding: 1.63rem 0 1.63rem 0;
+}
+
+.img-location-real {
+    border-radius: 1rem;
+    position: absolute;
+    scale: 180%;
+    height: 600px;
+    left: 40%;
+}
+
+/* newslettersection css here */
+.newsletter {
+   padding: 5px;
+   background: rgb(252, 249, 242);
+}
+
+.newsletter-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.56rem;
+    flex-direction: column;
+}
+
+.newsletter-left {
+    width: 100%;
+}
+
+.newsletter-right {
+    width: 100%;
+}
+
+.img-main {
+    border: none;
+    border-radius: 8px;
+    transform: translate(-30px);
+}
+
+.newsletter-right-img {
+    border-radius: 1rem;
+    transform: translate(30px, -20px);
+}
+
+.newsletter-text {
+    color: rgb(0, 0, 0);
+    font-family: Playfair;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.85px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14.85px;
+}
+.newsletter-p {
+    color: rgb(108, 108, 108);
+font-family: Cabin;
+font-size: 8.35px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 19px;
+}
+
+.subscribe-parent {
+    display: flex;
+    margin-top:0rem;
+    gap: 12px;
+}
+
+.subscripe-input {
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 14.85px;
+   padding: 7.43px 82.61px 7.43px 10px;
+    font-size: 0.88rem;
+    width: 60%;
+    background-color: #fff;
+}
+
+.inputplaceholder::placeholder {
+    color: rgb(198, 198, 198);
+}
+
+.subscribe-btn {
+    border-radius: 14.85px;
+    padding: 7.43px 14.85px 7.43px 14.85px;
+    background: rgb(251, 192, 78);
+    color: rgb(0, 0, 0);
+    font-family: cabin;
+    font-size: 8.35px;
+    text-align: center;
+    width: 97px;
+}
+
+/* footer section added */
+.footer {
+    padding: 40px 0 40px 0;
+    margin-top: 0rem;
+}
+.main-footer-content {
+    padding: 0 20.27px 0 20.27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.footer-left {
+    width: 100%;
+}
+
+.footer-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.logoa {
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+    font-family: jomhuria;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-p {
+    font-size:1.02rem;
+    text-align: center;
+}
+
+.footer-ul {
+    margin-top: 2rem;
+}
+
+.footer-ul-parent {
+    gap: 1rem;
+    font-family: cabin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.apple-parent {
+
+    border: 1px solid rgb(166, 1666, 1666);
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+
+.apple {
+    width: 25px;
+    height: 30px;
+    display: flex;
+    gap: 7px;
+
+}
+
+.appstore {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.download {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.hr {
+    border-top: 1px solid white;
+    color: #fff;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hr-p {
+    width: 80%;
+}
+
+.vactor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+ 
+}
+
+.vector {
+    width: 24px;
+}
+
+.last {
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width:601px) and (max-width:768px){
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 0.2rem 0 0.2rem;
+    }
+
+    /* header css here */
+    .header-wrapper {
+        background-color: rgb(253, 251, 247);
+    }
+
+    .navigation {
+        padding: 1rem 0 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .left-side {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .list-item {
+        display: none;
+    }
+
+    .last-item {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.5rem;
+        flex-grow: 1;
+    }
+
+    .logo {
+        color: rgb(0, 0, 0);
+        font-family: Jomhuria;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 20.74px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+
+
+    .svg-dib {
+        display: none;
+    }
+
+    .reverse-btn {
+        padding: 6px 12px 6px 12px;  justify-content: center;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12.01px; 
+    }
+
+
+.paragraph {
+    text-align: center;
+    font-size: 8px;
+}
+
+/* contact css start */
+/* contact section */
+.contact{
+    margin: 1rem auto 1rem auto;
+   
+
+}
+.contact-inner{
+    padding: 0.2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 2.69rem;
+ flex-direction: column;
+ border: 1px solid rgb(213, 211, 211);
+ border-radius: 0.5rem;
+
+}
+.contact-inner-left{
+ background-color:#292929;
+ width: 100%;
+ border-radius: 0.5rem;
+ color: white;
+}
+.contact-h2{
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 45px;
+    font-family: playfair; 
+
+}
+.contact-p{
+    padding: 1rem;
+ font-family: cabin;
+ font-size: 14px;
+ line-height: 27px;
+font-weight: 400;
+line-height: 150%;
+}
+.contact-div{
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.contact-div-inner{
+    padding: 0 0 0 1.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.contact-div-svg{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(251, 191, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+}
+.number{
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+}
+.contact-div-inner{
+    color: white;
+}
+.svg-icon-container{
+    display: flex;
+    justify-content:flex-end;
+}
+.svg-icon{
+    width: 190px;
+    height: 191px;
+  
+}
+
+/* container right section  */
+.contact-inner-right{
+width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; 
+    max-width: 500px; 
+    padding: 2rem; */
+    font-family: cabin;
+    padding: 1.2rem;
+    gap: 1rem;
+
+}
+
+/* Label styling */
+.input-container label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #767373;
+    margin-bottom: 8px;
+}
+
+/* Input field styling */
+.input-container input {
+    font-size: 16px;
+    color: #666;
+    padding: 12px;
+    border: 1px solid #D8C8A2; 
+    border-radius: 8px;
+    background-color: #f7f7f5; 
+    outline: none;
+    width: 100%;
+}
+.input-container textarea {
+    font-size: 16px;
+    color: #666;
+    padding: 12px;
+    border: 1px solid #D8C8A2; 
+    border-radius: 8px;
+    background-color: #f7f7f5; 
+    outline: none;
+    width: 100%;
+    height: 200px;
+    resize: vertical; 
+}
+
+/* Placeholder styling */
+.input-container textarea::placeholder {
+    color: #b3b3b3; 
+    font-family: cabin;
+}
+
+
+/* Placeholder styling */
+.input-container input::placeholder {
+    color: #b3b3b3; 
+}
+.form-btn{
+    background-color: #FBC04E;
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-family: cabin;
+}
+/* contact css end */
+/* location section */
+.location{
+    margin: 5rem 0 5rem 0;
+}
+.location-upper{
+    flex-direction: column;
+    gap: 3rem;
+}
+.location-inner-parent{
+    width: 100%;
+    gap: 3rem;
+}
+.img-location-real{
+    margin-top: 4rem;
+}
+.clock {
+    height: 64px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(252, 241, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerText {
+    color: rgb(0, 0, 0);
+    font-family: plafair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 1.5rem;
+}
+
+.time {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.time-2 {
+    display: flex;
+    width: 100%;
+}
+
+.time-2-h3 {
+    width: 50%;
+}
+
+.time-2-p {
+    color: rgb(114, 114, 114);
+    font-family: Cabin;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.time-h3 {
+    color: rgb(114, 114, 114);
+    font-family: Cabin;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-location {
+    height: 500px;
+    position: relative;
+overflow: hidden;
+border-radius: 1rem;
+margin:0 auto;
+width: 100%;
+padding: 1.63rem 0 1.63rem 0;
+}
+
+.img-location-real {
+    border-radius: 1rem;
+    position: absolute;
+    scale: 180%;
+    height: 600px;
+    left: 40%;
+}
+
+/* newslettersection css here */
+.newsletter {
+   padding: 5px;
+   background: rgb(252, 249, 242);
+}
+
+.newsletter-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.56rem;
+    flex-direction: column;
+}
+
+.newsletter-left {
+    width: 100%;
+}
+
+.newsletter-right {
+    width: 100%;
+}
+
+.img-main {
+    border: none;
+    border-radius: 8px;
+    transform: translate(-30px);
+}
+
+.newsletter-right-img {
+    border-radius: 1rem;
+    transform: translate(30px, -20px);
+}
+
+.newsletter-text {
+    color: rgb(0, 0, 0);
+    font-family: Playfair;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.85px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14.85px;
+}
+.newsletter-p {
+    color: rgb(108, 108, 108);
+font-family: Cabin;
+font-size: 8.35px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 19px;
+}
+
+.subscribe-parent {
+    display: flex;
+    margin-top:0rem;
+    gap: 12px;
+}
+
+.subscripe-input {
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 14.85px;
+   padding: 7.43px 82.61px 7.43px 10px;
+    font-size: 0.88rem;
+    width: 60%;
+    background-color: #fff;
+}
+
+.inputplaceholder::placeholder {
+    color: rgb(198, 198, 198);
+}
+
+.subscribe-btn {
+    border-radius: 14.85px;
+    padding: 7.43px 14.85px 7.43px 14.85px;
+    background: rgb(251, 192, 78);
+    color: rgb(0, 0, 0);
+    font-family: cabin;
+    font-size: 8.35px;
+    text-align: center;
+    width: 97px;
+}
+
+/* footer section added */
+.footer {
+    padding: 40px 0 40px 0;
+    margin-top: 0rem;
+}
+.main-footer-content {
+    padding: 0 20.27px 0 20.27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.footer-left {
+    width: 100%;
+}
+
+.footer-right {
+  
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoa {
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+    font-family: jomhuria;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-p {
+    font-size:1.02rem;
+    text-align: center;
+}
+
+.footer-ul {
+    margin-top: 2rem;
+}
+
+.footer-ul-parent {
+    gap: 1rem;
+    font-family: cabin;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.apple-parent {
+
+    border: 1px solid rgb(166, 1666, 1666);
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+
+.apple {
+    width: 25px;
+    height: 30px;
+    display: flex;
+    gap: 7px;
+
+}
+
+.appstore {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.download {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.hr {
+    border-top: 1px solid white;
+    color: #fff;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    
+    gap: 32px;
+}
+
+.hr-p {
+    width: 80%;
+}
+
+.vactor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+ 
+}
+
+.vector {
+    width: 24px;
+}
+
+.last {
+    padding-bottom: 48px;
+}
+
+
+
+
+}
+
+ /* for responsive laptop device */
+@media (min-width: 769px) and (max-width: 1024px){
+ .container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 1.5rem 0 1.5rem;
+ }
+ .navigation{
+    gap: 8rem;
+ }
+ .list-item{
+    padding: 0;
+ }
+ .left-side{
+    gap: 10rem;
+    width: 100%;
+ }
+
+
+
+ .healthy-section-wrapper{
+    width: 100%;
+ }
+ .img-section-wrapper{
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 1rem;
+    
+ }
+ .review-container-wrapper{
+    margin-top: 0px;
+ }
+ .contact{
+    margin: 1.5rem auto 1.5rem auto;
+   
+
+}
+ /* best food section */
+ .best-food-section{
+    padding: 5rem 0 5rem 0;
+ }
+ .left-side-img{
+    width: 100%;
+    margin: 64px 0 64px 0;
+    }
+    .right-side-img{
+        width: 100%;
+    }
+    .lower-img-section{
+        flex-direction: column;
+    }
+    .arrow{
+        left: 15%;
+    }
+    .left-side-content{
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .slider-section{
+        padding: 64px 0 64px 0;
+    }
+    /* online reservation */
+    .online-reservation{
+        margin-top: 0px;
+        padding: 40px 0 40px 0;
+    }
+    .input-parent{
+        grid-template-columns: repeat(2,1fr);
+    }
+  .clock{
+    padding: 10px;
+  }
+  .form-btn{
+    width: 100%;
+  }
+    /* location */
+    /* location */
+    .location{
+        margin: 5rem 0 5rem 0;
+    }
+    .location-upper{
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .location-inner-parent{
+        width: 100%;
+        gap: 3rem;
+    }
+    .img-location-real{
+        margin-top: 4rem;
+    }
+
+     /* newsletter parent */
+     .newsletter-parent{
+     
+        align-items: start;
+        gap: 5rem;
+        margin: 4rem 0 4rem 0;
+    }
+    .newsletter-left{
+        width: 100%;
+    }
+    .newsletter-right{
+        width: 100%;
+    }
+
+        /* footer */
+    /* footer section added */
+.footer {
+    padding: 40px 0 40px 0;
+    margin-top: 0rem;
+}
+.main-footer-content {
+    padding: 0 20.27px 0 20.27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.footer-left {
+    width: 100%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.logoa {
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+    font-family: jomhuria;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-p {
+    font-size:1.02rem;
+    text-align: center;
+}
+
+.footer-ul {
+    margin-top: 2rem;
+}
+
+.footer-ul-parent {
+    gap: 1rem;
+    font-family: cabin;
+    justify-content: center;
+    align-items: center;
+}
+.apple-parent {
+
+    border: 1px solid rgb(166, 1666, 1666);
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+
+.apple {
+    width: 25px;
+    height: 30px;
+    display: flex;
+    gap: 7px;
+
+}
+
+.appstore {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.download {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.hr {
+    border-top: 1px solid white;
+    color: #fff;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    
+    gap: 32px;
+}
+
+.hr-p {
+    width: 80%;
+}
+
+.vactor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+ 
+}
+
+.vector {
+    width: 24px;
+}
+
+.last {
+    padding-bottom: 48px;
+}
+} 
