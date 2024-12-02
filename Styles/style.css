@@ -91,25 +91,30 @@ img {
     font-size: 4rem;
     font-weight: 400;
     color: rgb(0, 0, 0);
+    line-height: 40px;
 }
 
 .li-style {
-    font-size: 1.13rem;
     font-family: cabin;
     font-weight: 400;
     color: rgb(0, 0, 0);
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .svg-dib {
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 44px;
+    height: 44px;
     background-color: rgb(0, 0, 0);
     justify-content: center;
     border-radius: 100%;
 }
 
 .reverse-btn {
-    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    padding: 12px 20px 12px 20px;
     column-rule: rgb(0, 0, 0);
     border-radius: 2rem;
     background: rgb(251, 192, 78);
@@ -118,6 +123,10 @@ img {
 .paragraph {
     background-color: rgb(251, 192, 78);
     padding: 0.57rem 0.5rem 0.57rem 0.5rem;
+}
+.guest{
+    border-bottom: 1px solid black;
+    color: black;
 }
 
 /* cover section css start here */
@@ -130,8 +139,7 @@ img {
 
 .cover-wrapper-inner {
   padding: 154px 100px 54px 100px; 
-  width: 50%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .cover-h2 {
@@ -159,6 +167,7 @@ line-height: 66px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 24px;
+width: 47%;
 }
 .cover-p{
     color: rgb(255, 255, 255);
@@ -169,6 +178,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 48px;
+width: 47%;
 }
 .button-wrapper{
     gap: 24px;
@@ -237,7 +247,7 @@ background: rgba(0, 0, 0, 0.4);
 
 /* healthy section css here */
 .healthy-section {
-    padding: 4rem;
+    padding: 4rem 0 4rem 0;
     border-bottom: 1px dashed rgb(253, 251, 247);
 }
 
@@ -250,7 +260,7 @@ background: rgba(0, 0, 0, 0.4);
     color: rgb(1, 1, 1);
     font-size: 5rem;
     font-weight: 700;
-
+    line-height: 92px;
 }
 
 .healthy-section-wrapper {
@@ -265,7 +275,6 @@ background: rgba(0, 0, 0, 0.4);
 .img-section-wrapper {
     gap: 3.5rem;
     margin-top: 4rem;
-    padding-bottom: 5rem;
 }
 
 .img-section-img {
@@ -288,9 +297,9 @@ background: rgba(0, 0, 0, 0.4);
 .cuisine {
     color: rgb(75, 185, 36);
     font-family: Satisfy;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 2.19rem;
+    line-height: 35px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -308,9 +317,9 @@ background: rgba(0, 0, 0, 0.4);
 .publishing {
     color: rgb(64, 64, 64);
     font-family: Cabin;
-    font-size: 1.6rem;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 2.25rem;
+    line-height: 36px;
     letter-spacing: 0%;
     text-align: justify;
 }
@@ -385,8 +394,8 @@ background: rgba(0, 0, 0, 0.4);
 
 /* best food section */
 .best-food-section {
-    padding: 7.75rem 0px 5rem 0px;
-    gap: 4.32rem;
+    padding: 124px 0 40px 0;
+    gap: 111px;
 }
 
 .best-left {
@@ -400,9 +409,9 @@ background: rgba(0, 0, 0, 0.4);
 .food-text {
     color: rgb(0, 0, 0);
     font-family: Playfair;
-    font-size: 3.13rem;
+    font-size:50px;
     font-weight: 700;
-    line-height: 3.75rem;
+    line-height: 60px;
     text-align: left;
     margin-top: 1rem;
     margin-bottom: 4rem;
@@ -417,13 +426,18 @@ background: rgba(0, 0, 0, 0.4);
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1rem;
+    line-height: 46px;
 }
 
 .spicy-p {
     font-family: cabin;
     font-weight: 400;
-    font-size: 1.13rem;
+    font-size: 18px;
     color: rgb(108, 108, 108);
+    line-height: 30px;
+}
+.about-btn{
+    padding-bottom: 80px;
 }
 
 /* slider section */
@@ -447,11 +461,11 @@ background: rgba(0, 0, 0, 0.4);
 .offer {
     color: rgb(0, 0, 0);
     font-family: Playfair;
-    font-size: 3.12rem;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 3.75rem;
+    line-height: 60px;
     letter-spacing: 0%;
-    text-align: center;
+    
 }
 
 .right {
@@ -471,7 +485,7 @@ background: rgba(0, 0, 0, 0.4);
 
 .lower-img-section {
     margin-top: 4rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .left-side-img {
@@ -501,9 +515,9 @@ background: rgba(0, 0, 0, 0.4);
     position: absolute;
     width: 129.75px;
     height: 108.11px;
-    left: 50%;
+    left: 39%;
     right: -132.44%;
-    top: 40.74%;
+    top: 59%;
     bottom: -67.74%;
     /* transform: rotate(-150.56deg); */
 }
@@ -549,6 +563,7 @@ background: rgba(0, 0, 0, 0.4);
     font-size: 2rem;
     color: rgb(0, 0, 0);
     margin-bottom: 1.5rem;
+    line-height: 46px;
 }
 
 .spicy-club-text {
@@ -1024,7 +1039,10 @@ input::placeholder {
     margin-bottom: 6px;
 }
 .heading-wrapper{
-    gap:6;
+    gap:6px;
+    flex-direction: column;
+    align-items: self-start;
+
    
 }
 .cover-img{
@@ -1039,6 +1057,7 @@ line-height: 45px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 20px;
+width: 100%;
 }
 .cover-p{
     color: rgb(255, 255, 255);
@@ -1049,12 +1068,13 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 25px;
+width: 100%;
 }
 .button-wrapper{
     gap: 24px;
 }
 .set-btna{
-    padding: 14px 28px 14px 28px;
+    padding: 14px 20px 14px 20px;
     gap: 8;
     border-radius: 2rem;
     background: rgb(251, 192, 78);
@@ -1153,7 +1173,7 @@ background: rgba(0, 0, 0, 0.4);
         justify-content: flex-start;
         align-items: flex-start;
         gap: 1rem;
-        margin-right: 0.2rem;
+        margin-right: 10px;
     }
 
     .cuisine {
@@ -1175,7 +1195,7 @@ background: rgba(0, 0, 0, 0.4);
 
     .set-btn {
         gap: 8;
-        padding: 11.03px 26.47px 11.03px 26.47px;
+        padding: 11.03px 20.47px 11.03px 20.47px;
         color: rgb(0, 0, 0);
         font-size: 15.44px;
         font-weight: 400;
@@ -1316,6 +1336,7 @@ background: rgba(0, 0, 0, 0.4);
         display: flex;
         justify-content: center;
         align-items: center;
+       
 
     }
 
@@ -1911,7 +1932,7 @@ background: rgba(0, 0, 0, 0.4);
 
 .cover-wrapper-inner {
   padding: 15px 40px 15px 40px; 
-  width: 50%;
+  width: 90%;
   margin: 0;
 }
 
@@ -1927,11 +1948,14 @@ background: rgba(0, 0, 0, 0.4);
 font-size: 55px;
 line-height: 60px;
 margin-bottom: 20px;
+width: 100%;
+
 }
 .cover-p{
 font-size: 18px;
 line-height: 26px;
 margin-bottom: 25px;
+width: 100%;
 }
 .mouse{
     bottom: 10px;
@@ -1957,7 +1981,6 @@ margin-bottom: 25px;
         align-items: center;
         gap: 1.5rem;
         margin-top: 4rem;
-        padding-bottom: 4rem;
         flex-direction: column;
     }
 
@@ -2191,7 +2214,6 @@ margin-bottom: 25px;
 
     .cover-wrapper-inner {
         padding: 25px 50px 25px 50px; 
-        width: 60%;
         margin: 0;
       }
       
@@ -2207,11 +2229,13 @@ margin-bottom: 25px;
       font-size: 55px;
       line-height: 69px;
       margin-bottom: 20px;
+      width: 70%;
       }
       .cover-p{
       font-size: 18px;
       line-height: 36px;
       margin-bottom: 25px;
+      width: 70%;
       }
       .mouse{
         bottom: 10px;
